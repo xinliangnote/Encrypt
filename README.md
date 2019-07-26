@@ -20,6 +20,10 @@
 
 :white_large_square:JS RSA - 密钥长度 2048
 
+## 运行结果
+
+- PHP AES(AES-128-CBC) = Go AES(AES-128-CBC)
+
 ## 学习交流
 
 :star2: 关注微信公众号「新亮笔记」
