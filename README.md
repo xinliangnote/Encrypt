@@ -10,11 +10,11 @@
 
 ## 源码指引
 
-:white_check_mark:[PHP AES - AES-128-CBC](https://github.com/xinliangnote/Encrypt/blob/master/PHP/php_aes_128_cbc.php)
+:white_check_mark:[PHP AES(AES-128-CBC)](https://github.com/xinliangnote/Encrypt/blob/master/PHP/php_aes_128_cbc.php)
 
-:white_check_mark:[PHP RSA - 密钥长度 2048](https://github.com/xinliangnote/Encrypt/blob/master/PHP/php_rsa_key_2048.php)
+:white_check_mark:[PHP RSA(密钥长度 2048)](https://github.com/xinliangnote/Encrypt/blob/master/PHP/php_rsa_key_2048.php)
 
-:white_large_square:Go AES - AES-128-CBC
+:white_check_mark:[Go AES(AES-128-CBC](https://github.com/xinliangnote/Encrypt/blob/master/Go/go_aes_128_cbc.go)
 
 :white_large_square:Go RSA - 密钥长度 2048
 
