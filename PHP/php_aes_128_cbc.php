@@ -73,3 +73,7 @@ echo "<br>";
 echo "加密后：".$encrypted;
 echo "<br>";
 echo "解密后：".$decrypted;
+
+//加密前：锄禾日当午
+//加密后：C8w7SQoVfPxileMmwmjHXg==
+//解密后：锄禾日当午
