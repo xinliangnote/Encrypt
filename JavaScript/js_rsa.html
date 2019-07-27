@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <title>Demo</title>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/jsencrypt.js"></script>
+</head>
+
+<body>
+
+<div>
+
+    <p>公钥：</p>
+    <textarea cols="80" rows="9" id="public_key">-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1O3p0JN0/RrP7eY3f81i
+zPf16FS0WMNGCJkd+y5c6yBzUvN0IEeoxiIWIBhoMKH0pzlzBg0rfttojSodOgNo
+m/UCAzAYEgdIsNee5LSN/7e0T2/QvsIAHINuA8gI8fGoGiSA2TEzpUo6aVXwhZT3
+4GGRdrSJ+m4iVk/Kt95tavBNk+NDVSeb5xAjxBchT5BjAMMlE0ffGZb0MMjjO5+e
+9Tn8f99M2VMqpzXHXZzv1ABmqufzS20iWcSvnjhWcJ9hiKwO8Z30GgJyACmml+HM
+xLYEFN9h2MWYgxLm9Z0rLMrWwMM+E2rCs8tsxAD5sO9RZMJPl1C0FIsMR53ngqbz
+owIDAQAB
+-----END PUBLIC KEY-----</textarea>
+    <p>私钥：</p>
+    <textarea cols="80" rows="20" id="private_key">-----BEGIN RSA PRIVATE KEY-----
+MIIEpgIBAAKCAQEA1O3p0JN0/RrP7eY3f81izPf16FS0WMNGCJkd+y5c6yBzUvN0
+IEeoxiIWIBhoMKH0pzlzBg0rfttojSodOgNom/UCAzAYEgdIsNee5LSN/7e0T2/Q
+vsIAHINuA8gI8fGoGiSA2TEzpUo6aVXwhZT34GGRdrSJ+m4iVk/Kt95tavBNk+ND
+VSeb5xAjxBchT5BjAMMlE0ffGZb0MMjjO5+e9Tn8f99M2VMqpzXHXZzv1ABmqufz
+S20iWcSvnjhWcJ9hiKwO8Z30GgJyACmml+HMxLYEFN9h2MWYgxLm9Z0rLMrWwMM+
+E2rCs8tsxAD5sO9RZMJPl1C0FIsMR53ngqbzowIDAQABAoIBAQCO1RE1ItUlO6kj
+Un0ENAgEqojAUqGvsT33Yo7kAZO+/cOeb0UEqk0iq5bf7L9ncBynWDg6ZPc6X3/g
+wdFdKxAvHck9zjM3VL+EMP+bNyrR0K8ZYk5Kx+Q/PEK+Mp8dfRdgggAUsZaNWB+a
+rVVspiMo1wo28KBl5x8NevTnJkOLqXAyB7UyLWqnOL1fb988lZvZPR7ZUYroVIZa
+pyXtZcafIJeKyQ3bvWI5+eFqOe61Z4Bx1+TpfZ3fKfSDW0vhxzNqaimOa8jSXtMJ
+jMeOctL4nZ0TPo/jS3I+XlaH4ZQlFLuUWGscpxwfEeBN23I8HRLkZXJsw66yvRN3
+s4bUKPXRAoGBAP/3oSZAECvfsYYzs76tnrAmR/0GxCqgguxDlWn5DowQzdWFOdHC
+ZbTo/hUVoMSQnO1EKCFlnBS+wg/3TuIzUO0ewC1aeT7qHbOMDl0zKbNpS2Z9/j+U
+zro+qz7XmkWolMCfmDrCrw9CtCxcMSII+ajbI8SAgFVMz9XnDt+xW9E9AoGBANT0
+4F6kCUJTEyqf2+v84tjQ2wGIF6XtZPU9JR806zeMyahQ9F6z3hY8BYb0tIy5b3uJ
+VlJ9TG1qg/t59TWxIq43mYSUJHe0aJi3ilooObQtHlhPu8nwmmX47sX0PyG2hMoD
+kBVxTpTDmBaDz7O9uBnlMXJN5qEygctaixpEbmZfAoGBAMBA9kEMjRjnAyeRXcgy
+D6aumhNqKZz6wltCx864yjxZwsBFOJBcOpgPCAg+HmqFU9jCAIJVF05dmNT1I8Ky
+WG5BUoa+FaMzpOtenstRylh/Far9pyGKW1t4BpdEyRLY9CFZvbUk1OfZagqHlD/E
+DgDN16eX/MwUzWYUDg/l3tjhAoGBAKGip/ZNjVWRFpggs9z/mfK1O7WC5Wgksp9N
+ZLK2CN6l9p3RrFmBLk00C4HulGfHi+15RVLhFbRqx3iFje/N3iPbwaMWikNtZIKd
+tN5Pb9To9gJTqpZRD+/cLOeFRrHBBjMK1z7fPKS/fN2B+JFVq7nD827t3+J0In4F
+4FT0odMDAoGBAJk3ELB/FHY8xzZ4jF1wG/a1CK681Xm6SuU5KIELDSAUNoou6OPG
+mS8gU20MMPAeV2z7khyDcSxlHsUyL73eLeaakbQov9NMW7cc99XX4wnP4W7FRpmr
+QbHmKuHIRFHCFv+XX8c0aK2mDZMUlzJdy4FgD/YCEZ7kZMZKyvZW/ZuV
+-----END RSA PRIVATE KEY-----</textarea>
+    <p>加密字符串：</p>
+    <input type="text" value="锄禾日当午" id="data"/>
+    <input type="button" id="public_en_btn" value="公钥加密">
+    <input type="button" id="private_de_btn" value="私钥解密">
+
+    <p>加密后：</p>
+    <textarea cols="80" rows="10" id="encrypt_data" readonly></textarea>
+
+    <p>解密后：</p>
+    <textarea cols="80" rows="10" id="decrypt_data" readonly></textarea>
+
+    <p>了解更多，请查看：<a target="_blank" href="https://github.com/travist/jsencrypt">travist/jsencrypt</a></p>
+</div>
+
+<script>
+    $("#public_en_btn").click(function() {
+        var data = $("#data").val();
+        if (!data) {
+            alert("请输入加密字符串！");
+            return false;
+        }
+
+        var public_key  = $("#public_key").val();
+        if (!public_key) {
+            alert("请输入公钥！");
+            return false;
+        }
+
+        var encrypt = new JSEncrypt();
+        encrypt.setPublicKey(public_key);
+        $("#encrypt_data").val(encrypt.encrypt(data));
+    });
+
+    $("#private_de_btn").click(function () {
+        var encrypt_data = $("#encrypt_data").val();
+        if (!encrypt_data) {
+            alert("还未进行加密！");
+            return false;
+        }
+        var private_key = $("#private_key").val();
+        if (!private_key) {
+            alert("请输入私钥！");
+            return false;
+        }
+
+        var encrypt = new JSEncrypt();
+        encrypt.setPrivateKey(private_key);
+        $("#decrypt_data").val(encrypt.decrypt(encrypt_data));
+    });
+</script>
+</body>
+</html>
