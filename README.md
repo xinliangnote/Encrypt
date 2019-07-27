@@ -16,13 +16,14 @@
 
 :white_check_mark:[Go AES(AES-128-CBC)](https://github.com/xinliangnote/Encrypt/blob/master/Go/go_aes_128_cbc.go)
 
-:white_large_square:Go RSA - 密钥长度 2048
+:white_large_square:Go RSA(密钥长度 2048)
 
-:white_large_square:JS RSA - 密钥长度 2048
+:white_large_square:[JS RSA(密钥长度 2048)](https://github.com/xinliangnote/Encrypt/blob/master/JavaScript)
 
 ## 运行结果
 
-- PHP AES(AES-128-CBC) = Go AES(AES-128-CBC)
+- PHP AES(AES-128-CBC) 与 Go AES(AES-128-CBC) 互通。
+- PHP RSA(密钥长度 2048) 与 JS RSA(密钥长度 2048) 互通。
 
 ## 学习交流
 
