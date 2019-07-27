@@ -18,7 +18,7 @@
 
 :white_large_square:Go RSA(密钥长度 2048)
 
-:white_large_square:[JS RSA(密钥长度 2048)](https://github.com/xinliangnote/Encrypt/blob/master/JavaScript)
+:white_check_mark:[JS RSA(密钥长度 2048)](https://github.com/xinliangnote/Encrypt/blob/master/JavaScript)
 
 ## 运行结果
 
