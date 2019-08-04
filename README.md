@@ -4,7 +4,19 @@
 
 常用 加密/解密 类库。
 
-## 项目指引
+## 项目结构
+
+```
+├─ Encrypt
+│  ├─ Go
+│     ├── go_aes_128_cbc.go
+│     ├── o_rsa_key_2048.go
+│  ├─ PHP
+│     ├── go_aes_128_cbc.php
+│     ├── o_rsa_key_2048.php
+│  ├─ JavaScript
+│     ├── js_rsa.html
+```
 
 如果你发现本项目有内容上的错误，欢迎提交 issues 进行指正。
 
