@@ -2,7 +2,7 @@
 
 项目地址：https://github.com/xinliangnote/Encrypt
 
-常用 加密/解密 类库。
+常用 Api 接口签名 加密/解密 类库。
 
 ## 项目结构
 
