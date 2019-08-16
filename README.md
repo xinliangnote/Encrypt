@@ -11,9 +11,11 @@
 │  ├─ Go
 │     ├── go_aes_128_cbc.go
 │     ├── go_rsa_key_2048.go
+│     ├── go_md5.go
 │  ├─ PHP
 │     ├── php_aes_128_cbc.php
 │     ├── php_rsa_key_2048.php
+│     ├── php_md5.php
 │  ├─ JavaScript
 │     ├── js_rsa.html
 ```
@@ -32,12 +34,16 @@
   - :white_check_mark: [PHP AES(AES-128-CBC)](https://github.com/xinliangnote/Encrypt/blob/master/PHP/php_aes_128_cbc.php)
 
   - :white_check_mark: [PHP RSA(密钥长度 2048)](https://github.com/xinliangnote/Encrypt/blob/master/PHP/php_rsa_key_2048.php)
+  
+  - :white_check_mark: [PHP MD5(组合拳)](https://github.com/xinliangnote/Encrypt/blob/master/PHP/php_md5.php)
 
 - Go
 
   - :white_check_mark: [Go AES(AES-128-CBC)](https://github.com/xinliangnote/Encrypt/blob/master/Go/go_aes_128_cbc.go)
 
   - :white_check_mark: [Go RSA(密钥长度 2048)](https://github.com/xinliangnote/Encrypt/blob/master/Go/go_rsa_key_2048.go)
+  
+  - :white_check_mark: [Go MD5(组合拳)](https://github.com/xinliangnote/Encrypt/blob/master/Go/go_md5.go)
 
 - JS
 
@@ -47,6 +53,7 @@
 
 - PHP AES(AES-128-CBC) 与 Go AES(AES-128-CBC) 互通。
 - PHP RSA(密钥长度 2048) 与 JS RSA(密钥长度 2048) 与 Go RSA(密钥长度 2048) 互通。
+- PHP MD5(组合拳) 与 Go MD5(组合拳) 互通。
 
 ## 学习交流
 
